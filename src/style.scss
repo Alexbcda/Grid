@@ -1,0 +1,90 @@
+body{
+    background-color: rgb(190, 190, 190);
+}
+// .container {
+//     display : flex ;
+//    flex-direction: row;
+//    justify-content: flex-start
+// }
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.col-xs-12 {
+    width: 100%;
+}
+
+@media (min-width: 600px) {
+    .col-md-8 {
+        width: 66.666666%;
+    }
+    
+    .col-md-4 {
+        width: 33.33333%; 
+    }
+.col-md-5{
+  width: 40%;
+  }
+.col-md-7{
+    width: 60%;
+   }
+
+}
+
+.orange{
+     background-color: rgb(253, 75, 69); 
+}
+
+.yellow{
+ background-color: rgb(220, 223, 46);
+
+}
+
+.purpule{
+    background-color: rgb(223, 46, 217);
+   
+   }
+
+.col-md-3 blue{
+width: 20%;
+
+}
+.col-md-6 blue{
+    width: 60%;
+}
+.col-md-3 blue{
+
+    width: 20%;
+}
+
+.blue{
+    background-color: rgb(30, 37, 222);
+}
+
+// bloc1{
+//     display : flex ;
+//     flex-direction: row;
+//     justify-content: flex-start;
+//     background-color: grey;
+
+// }
+// .col-xs-6 {
+//     width: 50%;
+//     max-width: 50%;
+// }
+
+// .col-sm-3 {
+//     width: 25%;
+//     max-width: 25%;
+// }
+
+.blue {
+    background-color: blue;
+}
+
+.purple {
+    background-color: purple;
+}
